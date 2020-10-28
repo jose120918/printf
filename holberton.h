@@ -1,17 +1,25 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
-
-#include <stdio.h>
-#include <stdlib.h>
 #include <stdarg.h>
+#include <stdio.h>
 
-/* -- Prototypes --*/
+/**
+ * struct identifier - Structure that define the signs
+ * @sign: Conversion especifier
+ * @function_pointer: Function pointer
+ */
+
+typedef struct identifier
+{
+	char sign;
+	int (*function_pointer)(va_list);
+} formater;
+
 int _putchar(char c);
 int _printf(const char *format, ...);
-int prtf_c(va_list valist);
-int prtf_s(va_list valist);
-int prtf_int(va_list valist);
-int prtf_rev(va_list valist);
-int prtf_rot(va_list valist);
+int print_character(va_list ch);
+int print_string(va_list str);
+int print_integers(va_list integer);
+int print_percentage(char c);
 
 #endif
