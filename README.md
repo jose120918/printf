@@ -1,5 +1,7 @@
 # Printf
 
+---
+
 ## Making a mini version of the Printf function
 
 _printf
@@ -15,6 +17,8 @@ Handles the following conversion specifiers:
 * i - integer
 * % - percentage sign
 
+---
+
 ## Command tests 
 
 Create a main with like this:
@@ -29,11 +33,15 @@ then run this command:
 
 `$ gcc -Wall -Wextra -Werror -pedantic -Wno-format main.c *.c -o printf `
 
+---
+
 ## Example:sleepy:
 
 `_printf("hello_%c",'w');`
 
 `Output : "hello_w"`
+
+---
 
 ## Authors :copyright:
 
