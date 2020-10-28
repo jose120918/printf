@@ -1,4 +1,13 @@
-# Printf
+# _printf
+
+---
+
+## RESOURCES
+
+ Read or watch
+* [Secrets of "printf."](https://www.cypress.com/file/54761/download)
+* [Secrets of printf(): C Programming.](https://www.youtube.com/watch?v=Y9kUWsyyChk&t=319s)
+* [How to write C functions with variable argument lists..](https://www.youtube.com/watch?v=S-ak715zIIE)
 
 ---
 
@@ -35,7 +44,7 @@ then run this command:
 
 ---
 
-## Example:sleepy:
+## Operating example
 
 `_printf("hello_%c",'w');`
 
